@@ -21,7 +21,7 @@ class PlusFormatter implements FormatterInterface
             $input['amount']
         );
 
-        $furniture = sprintf("INSERT INTO furniture VALUES (%d, '%s', '%s', 's', %d, %d, 1, 1, %d, %d, %d, 1, 1, 1, 1, 1, 'default', 2, 0, 0, 0, 0, 0, 0, 0);",
+        $furniture = sprintf("INSERT INTO furniture VALUES (%d, '%s', '%s', 's', %d, %d, 1, 1, %d, %d, %d, 1, 1, 1, 1, 1, 'default', 0, 2, 0, 0, 0, 0, 0, 0, 0);",
             $input['id'],
             $input['swf'],
             $input['name'],
