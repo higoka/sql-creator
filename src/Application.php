@@ -16,7 +16,7 @@ class Application
         return $this;
     }
 
-    public function run($namem, array $input)
+    public function run($name, array $input)
     {
         if (! isset($this->formatters[$name])) {
             throw new InvalidArgumentException(sprintf(
