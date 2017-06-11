@@ -16,7 +16,7 @@ class Creator
         return $this;
     }
 
-    public function run($name)
+    public function run($namem, array $input)
     {
         if (! isset($this->formatters[$name])) {
             throw new InvalidArgumentException(sprintf(
@@ -26,7 +26,7 @@ class Creator
         }
 
         echo json_encode(
-            array_map('trim', $this->formatters[$name]->format($_POST))
+            array_map('trim', $this->formatters[$name]->format($input))
         );
     }
 }
