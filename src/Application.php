@@ -5,7 +5,7 @@ namespace Creator;
 use InvalidArgumentException;
 use Creator\Formatter\FormatterInterface;
 
-class Creator
+class Application
 {
     protected $formatters = [];
 
