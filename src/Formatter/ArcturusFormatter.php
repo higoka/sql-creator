@@ -2,7 +2,7 @@
 
 namespace Creator\Formatter;
 
-use Furnidata\XmlFormatter;
+use Creator\Formatter\Furnidata\XmlFormatter;
 
 class ArcturusFormatter implements FormatterInterface
 {
