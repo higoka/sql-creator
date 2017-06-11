@@ -1,0 +1,12 @@
+{
+    "name": "tafelglotzer/sql-creator",
+    "require": {
+        "php": ">=5.6.0",
+        "tafelglotzer/sql-creator-layout": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creator\\": "src/"
+        }
+    }
+}
