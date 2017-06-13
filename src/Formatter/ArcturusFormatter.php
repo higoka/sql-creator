@@ -20,11 +20,12 @@ class ArcturusFormatter implements FormatterInterface
             $input['amount']
         );
 
-        $itemsBase = sprintf("INSERT INTO items_base VALUES (%d, %d, '%s', '%s', 's', %d, %d, 0, 0, %d, %d, 0, 1, 1, 1, 1, 1, 'default', 2, 0, 0, 0, 0);",
+        $itemsBase = sprintf("INSERT INTO items_base VALUES (%d, %d, '%s', '%s', '%s', %d, %d, 0, 0, %d, %d, 0, 1, 1, 1, 1, 1, 'default', 2, 0, 0, 0, 0);",
             $input['id'],
             $input['id'],
             $input['name'],
             $input['swf'],
+            $input['type'],
             $input['width'],
             $input['length'],
             isset($input['isWalkable']) ? 1 : 0,
