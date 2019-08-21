@@ -1,13 +1,13 @@
 ### SQL-Creator
-This is the core of https://github.com/tafelglotzer/sql-creator-layout
+This is the core of https://github.com/higoka/sql-creator-layout
 
 ### Contribute
-Contribution, bug fixes etc are [always welcome](https://github.com/tafelglotzer/sql-creator/issues/new).
+Contribution, bug fixes etc are [always welcome](https://github.com/higoka/sql-creator/issues/new).
 
 ### Credits
-- [Tafelglotzer](https://github.com/tafelglotzer)
-- [All Contributors](https://github.com/tafelglotzer/sql-creator/contributors)
+- [Higoka](https://github.com/higoka)
+- [All Contributors](https://github.com/higoka/sql-creator/contributors)
 
 ### License
 The MIT License (MIT).
-Please see [License File](https://github.com/tafelglotzer/sql-creator/blob/master/LICENSE) for more information.
+Please see [License File](https://github.com/higoka/sql-creator/blob/master/LICENSE) for more information.
