@@ -10,7 +10,7 @@ class MorningstarFormatter implements FormatterInterface
 
     public function format(array $input)
     {
-        $catalogItems = sprintf("INSERT INTO catalog_items VALUES (%d, %d, %d, '%s', %d, %d, 0, %d, 0, 0, 0, 0, 0, 1, -1);",
+        $catalogItems = sprintf("INSERT INTO catalog_items (id, page_id, item_ids, catalog_name, cost_credits, cost_points, amount) VALUES (%d, %d, %d, '%s', %d, %d, %d);",
             $input['id'],
             $input['pageId'],
             $input['id'],
@@ -20,7 +20,7 @@ class MorningstarFormatter implements FormatterInterface
             $input['amount']
         );
 
-        $itemsBase = sprintf("INSERT INTO items_base VALUES (%d, %d, '%s', '%s', '%s', %d, %d, 0, 0, %d, %d, 0, 1, 1, 1, 1, 1, 'default', 2, 0, 0, 0, 0);",
+        $itemsBase = sprintf("INSERT INTO items_base (id, sprite_id, public_name, item_name, type, width, length, allow_walk, allow_sit) VALUES (%d, %d, '%s', '%s', '%s', %d, %d, %d, %d);",
             $input['id'],
             $input['id'],
             $input['name'],
