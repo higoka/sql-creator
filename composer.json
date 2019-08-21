@@ -1,11 +1,11 @@
 {
-    "name": "tafelglotzer/sql-creator",
-    "require": {
-        "php": ">=5.6.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Creator\\": "src/"
-        }
+  "name": "higoka/sql-creator",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Creator\\": "src/"
     }
+  }
 }
