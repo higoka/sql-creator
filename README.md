@@ -5,7 +5,7 @@ This is the core of https://github.com/higoka/sql-creator-layout
 Contribution, bug fixes etc are [always welcome](https://github.com/higoka/sql-creator/issues/new).
 
 ### Credits
-- [Higoka](https://github.com/higoka)
+- [higoka](https://github.com/higoka)
 - [All Contributors](https://github.com/higoka/sql-creator/contributors)
 
 ### License
